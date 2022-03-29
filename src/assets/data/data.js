@@ -127,28 +127,28 @@ export const products = [
     name: "Privacy Policy Generator",
     description:
       "Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.",
-    imgSrc: "../../images/policy.svg",
+    imgSrc: "policy.svg",
   },
   {
     id: 2,
     name: "Terms & Conditions Generator",
     description:
       "Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.",
-    imgSrc: "../../images/terms.svg",
+    imgSrc: "terms.svg",
   },
   {
     id: 3,
     name: "Domain Name Generator",
     description:
       "Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.",
-    imgSrc: "../../images/domain.svg",
+    imgSrc: "domain.svg",
   },
   {
     id: 4,
     name: "Invoice Generator",
     description:
       "Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.",
-    imgSrc: "./assets/images/invoice.svg",
+    imgSrc: "invoice.svg",
   },
 ];
 export const features = [
