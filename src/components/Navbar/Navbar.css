@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+
+  justify-content: space-between;
+  padding-block: 1rem;
+}
+
+.right_header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25%;
+  width: 30%;
+  align-items: center;
+}
+.white_bg {
+  background-color: var(--primary-white-color);
+  color: var(--primary-blue-color);
+}
+.sign_link {
+  color: var(--primary-white-color);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  transition: border 0.2s cubic-bezier(0.39, -0.92, 0.66, 0.86);
+}
+.sign_link:hover {
+  border-bottom: 3px solid var(--primary-white-color);
+}

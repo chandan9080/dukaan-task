@@ -1,7 +1,39 @@
 @import url("./Common/styles/fonts/font.css");
+@import url("./Common/styles/variables.css");
 body {
-  margin: 0;
+  margin: auto 0;
   font-family: "Galano Grotesque", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  background-color: var(--primary-grey-color);
+}
+.navbar_container {
+  background-color: var(--primary-blue-color);
+  padding-inline: 12%;
+  height: 15rem;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  border: none;
+  padding: 0.6rem 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 4px;
+  font-family: "Galano Grotesque", sans-serif;
+}
+.btn:hover {
+  transform: scale(1.01);
+}
+
+.feature_container {
+  padding-inline: 12%;
 }
