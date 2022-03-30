@@ -1,0 +1,38 @@
+.slogon_card_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 2rem;
+  padding-top: 2rem;
+}
+.slogon_div {
+  border-top: 2px solid var(--primary-grey-color);
+  border-bottom: 2px solid var(--primary-grey-color);
+}
+
+.slogon_card {
+  background-color: var(--background-grey-color);
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.copy_text {
+  visibility: hidden;
+  background-color: var(--secondary-dark-color);
+  color: var(--primary-white-color);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0.5rem;
+  width: max-content;
+  position: absolute;
+  right: 106%;
+  z-index: 1;
+}
+.slogon_card:hover .copy_text {
+  visibility: visible;
+}

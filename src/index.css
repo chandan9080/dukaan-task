@@ -14,23 +14,33 @@ body {
 .feature_container,
 .product_container,
 .footer_container,
-.main_contaier,
+.main_container,
 .navbar_container {
   padding-inline: 12%;
 }
 
 .App {
   background-color: var(--primary-grey-color);
+  display: flex;
+  flex-direction: column;
 }
 .navbar_container {
   background-color: var(--primary-blue-color);
-  height: 15rem;
+  height: 20.5rem;
+}
+.main_container {
+  background-color: var(--secondary-grey-color);
+  height: 82.25rem;
 }
 .product_container {
   background-color: var(--background-grey-color);
+  padding-block: 5rem;
 }
-a {
-  text-decoration: none;
+.feature_container {
+  background-color: rgb(20, 110, 180, 0.05);
+}
+li {
+  cursor: pointer;
 }
 .btn {
   border: none;
@@ -47,6 +57,7 @@ a {
 .btn:hover {
   transform: scale(1.01);
 }
+
 .footer_container {
   background-color: var(--primary-dark-color);
   color: var(--primary-white-color);
@@ -56,8 +67,20 @@ a {
   .feature_container,
   .product_container,
   .footer_container,
-  .main_contaier,
+  .main_container,
   .navbar_container {
     padding-inline: 6%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .feature_container,
+  .product_container,
+  .footer_container,
+  .main_container,
+  .navbar_container {
+    padding-inline: 8%;
+  }
+  .main_container {
+    height: 60rem;
   }
 }

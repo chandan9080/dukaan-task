@@ -27,6 +27,7 @@
   display: flex;
   border-top: 1px solid var(--background-grey-color);
   gap: 2%;
+  justify-content: space-between;
   padding-top: 0.5rem;
 }
 .copyright_terms {
@@ -57,4 +58,37 @@
   .footer_terms {
     grid-column: span 1;
   }
+}
+.slogon_upper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  color: #1a181e;
+}
+.slogon_upper h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+.slogon_div {
+  padding-block: 2.5rem;
+}
+.btn2 {
+  border: 2px solid var(--primary-blue-color);
+  background-color: var(--primary-white-color);
+  color: var(--primary-blue-color);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  font-family: "Galano Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: var(--primary-blue-color);
+  color: var(--primary-white-color);
 }
